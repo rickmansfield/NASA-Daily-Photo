@@ -29,6 +29,7 @@ const Headers = styled.div`
         font-size: 2rem;
         color: white;
         padding-left: 2%;
+        margin: 5%;
         
     }
     
@@ -58,5 +59,5 @@ const Headers = styled.div`
         justify-content:flex-start;
         margin: 1%;	
     }
-    
+
     `;

@@ -22,17 +22,17 @@ export default function Footer(){
             <Icons>
         <Box> EMAIL 
             <EmailShareButton url={window.location.href}>
-            <EmailIcon size={25} round={false} iconFillColor="black" bgStyle={{ fill: 'none' }}  /> 
+            <EmailIcon size={25} round={false} iconFillColor="white" bgStyle={{ fill: 'none' }}  /> 
             </EmailShareButton>
         </Box>
         <Box> SHARE
             <FacebookShareButton url={window.location.href}>
-            <FacebookIcon size={25} round={false} iconFillColor="black" bgStyle={{ fill: 'none' }}   />
+            <FacebookIcon size={25} round={false} iconFillColor="white" bgStyle={{ fill: 'none' }}   />
             </FacebookShareButton>  
         </Box>
         <Box> TWEET
             <TwitterShareButton url={window.location.href}>
-            <TwitterIcon size={25} round={false} iconFillColor="black" bgStyle={{ fill: 'none' }}    />
+            <TwitterIcon size={25} round={false} iconFillColor="white" bgStyle={{ fill: 'none' }}    />
             </TwitterShareButton>
         </Box>
 
@@ -45,11 +45,19 @@ export default function Footer(){
 }
 
 const Shares = styled.section``;
+
 const P = styled.p``;
+
 const Icons = styled.section`
 display: flex;
 margin: 5% 5% 2% 0%;
 width: 100%;
 justify-content: space-evenly;
-align-items: center;`;
-const Box = styled.section``;
+align-items: center;
+
+`;
+
+const Box = styled.section`
+//     background-color: white;
+//     padding-left: 5%;
+`;
