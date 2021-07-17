@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from  'styled-components';
 
-export default function Header(props){
+export default function Header(){
     // const {title} = props;
     
     return (
@@ -21,7 +21,7 @@ export default function Header(props){
         </Headers>
     )
 }
-// export default Header;
+
 const Headers = styled.div`
     h1{
         font-family: 'Chelsea Market', cursive;
