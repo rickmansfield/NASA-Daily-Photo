@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/NASA-Daily-Photo/static/css/main.cc6235dc.chunk.css",
+    "main.js": "/NASA-Daily-Photo/static/js/main.b5e83241.chunk.js",
+    "main.js.map": "/NASA-Daily-Photo/static/js/main.b5e83241.chunk.js.map",
+    "runtime-main.js": "/NASA-Daily-Photo/static/js/runtime-main.0a498b6c.js",
+    "runtime-main.js.map": "/NASA-Daily-Photo/static/js/runtime-main.0a498b6c.js.map",
+    "static/js/2.457b739e.chunk.js": "/NASA-Daily-Photo/static/js/2.457b739e.chunk.js",
+    "static/js/2.457b739e.chunk.js.map": "/NASA-Daily-Photo/static/js/2.457b739e.chunk.js.map",
+    "index.html": "/NASA-Daily-Photo/index.html",
+    "precache-manifest.4dc4058940dd426bcdf481b8dec17045.js": "/NASA-Daily-Photo/precache-manifest.4dc4058940dd426bcdf481b8dec17045.js",
+    "service-worker.js": "/NASA-Daily-Photo/service-worker.js",
+    "static/css/main.cc6235dc.chunk.css.map": "/NASA-Daily-Photo/static/css/main.cc6235dc.chunk.css.map",
+    "static/js/2.457b739e.chunk.js.LICENSE.txt": "/NASA-Daily-Photo/static/js/2.457b739e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a498b6c.js",
+    "static/js/2.457b739e.chunk.js",
+    "static/css/main.cc6235dc.chunk.css",
+    "static/js/main.b5e83241.chunk.js"
+  ]
+}
