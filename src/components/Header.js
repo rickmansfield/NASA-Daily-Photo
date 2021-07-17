@@ -11,7 +11,7 @@ export default function Header(){
             </div>
             
             <section className="logo">
-            <img src="https://stoic-jones-8cfd50.netlify.app/static/media/nasa-logo-web-rgb-1.43be7d63.png" alt="NASA Logo"></img>
+            <img id='logo1' src="https://stoic-jones-8cfd50.netlify.app/static/media/nasa-logo-web-rgb-1.43be7d63.png" alt="NASA Logo"></img>
             </section>
             <nav className="home-login-subscribe">
                 <a href="index.html">HOME</a>
@@ -29,7 +29,7 @@ const Headers = styled.div`
         font-size: 2rem;
         color: white;
         padding-left: 2%;
-        margin: 5%;
+        margin: 1%;
         
     }
     
@@ -58,6 +58,13 @@ const Headers = styled.div`
         flex-direction: row;
         justify-content:flex-start;
         margin: 1%;	
+    }
+
+    .logo{
+        margin: 5%;
+    }
+    #logo1{
+        margin 5%padding-left;
     }
 
     `;

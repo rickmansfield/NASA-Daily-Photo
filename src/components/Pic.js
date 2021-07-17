@@ -26,7 +26,7 @@ const Pics = styled.section`
     #imgDiv{
         border: 5px white;
         /* background-color: white; */
-        margin: 5%;
+        margin: 2%;
     }
 
 `;
