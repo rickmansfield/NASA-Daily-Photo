@@ -30,14 +30,15 @@ const Headers = styled.div`
         padding-left: 2%;
         
     }
+    
     h2{
     font-family: 'Chelsea Market', cursive;
     font-size: 4rem;
 	color: black;
 	padding-left: 2%;
-}
+    }
 
-a{
+    a{
     text-decoration: none;
 	background-color: rgb(179, 170, 170);
 	padding: 1%;
@@ -47,17 +48,13 @@ a{
         background-color: rgb(11, 223, 57);
         transform:scale(2);
         transition: all 0.5s ease-in-out;
-}
-transition: all 0.5s ease-in-out;
-
-header{
-	background-color:#444c55;
-}
-nav{
+    }
+    transition: all 0.5s ease-in-out;
+    
+    nav{
 	display:flex;
 	flex-direction: row;
     justify-content:flex-start;
 	margin: 1%;	
-}
-
+    }
     `;
