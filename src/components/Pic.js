@@ -14,3 +14,5 @@ export default function Pic(props){
         </div>
     )
 }
+
+{/* {url.includes('youtube')?<div className ='player-wrapper'><ReactPlayer url={url} /></div>:<Pic pic={url}/>} */}

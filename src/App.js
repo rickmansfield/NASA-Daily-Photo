@@ -59,9 +59,10 @@ box-sizing:border-box;
       <div className="App">
       <Header />
       <Pic pic={url}/>
-      {/* {url.includes('youtube')?<div className ='player-wrapper'><ReactPlayer url={url} /></div>:<Pic pic={url}/>} */}
       <Content explanation={contents.explanation} title={contents.title}/>
+      <Footer />
       </div>
+      
     </Container>
   );
 }
