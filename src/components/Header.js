@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from  'styled-components';
-
+import '../App.css';
 export default function Header(){
     // const {title} = props;
     
@@ -23,6 +23,7 @@ export default function Header(){
 }
 
 const Headers = styled.div`
+
     h1{
         font-family: 'Chelsea Market', cursive;
         font-size: 2rem;
@@ -32,29 +33,30 @@ const Headers = styled.div`
     }
     
     h2{
-    font-family: 'Chelsea Market', cursive;
-    font-size: 4rem;
-	color: black;
-	padding-left: 2%;
+        font-family: 'Chelsea Market', cursive;
+        font-size: 4rem;
+        color: black;
+        padding-left: 2%;
     }
 
     a{
-    text-decoration: none;
-	background-color: rgb(179, 170, 170);
-	padding: 1%;
-	border-radius: 25%;
-	margin: 0 1%;
+        text-decoration: none;
+        background-color: rgb(179, 170, 170);
+        padding: 1%;
+        border-radius: 25%;
+        margin: 0 1%;
     &:hover{
         background-color: rgb(11, 223, 57);
         transform:scale(2);
         transition: all 0.5s ease-in-out;
     }
-    transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
     
     nav{
-	display:flex;
-	flex-direction: row;
-    justify-content:flex-start;
-	margin: 1%;	
+        display:flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        margin: 1%;	
     }
+    
     `;

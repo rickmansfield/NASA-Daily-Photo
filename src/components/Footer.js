@@ -46,5 +46,10 @@ export default function Footer(){
 
 const Shares = styled.section``;
 const P = styled.p``;
-const Icons = styled.section``;
+const Icons = styled.section`
+display: flex;
+margin: 5% 5% 2% 0%;
+width: 100%;
+justify-content: space-evenly;
+align-items: center;`;
 const Box = styled.section``;
