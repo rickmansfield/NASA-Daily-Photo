@@ -64,7 +64,7 @@ const Headers = styled.div`
         margin: 5%;
     }
     #logo1{
-        margin 5%padding-left;
+        margin: 5%;
     }
 
     `;

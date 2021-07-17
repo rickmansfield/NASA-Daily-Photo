@@ -14,7 +14,7 @@ const Container = styled.div`
   margin:0px;
   font-family: san-serif;
   text-align: center;
-  color: dodgerblue;
+  color: white;
 }
 background: url("https://th.bing.com/th/id/R.64d990b38f70d749d1d6a2f9f0b919ec?rik=cl0Lt6wm1%2bzeqA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fs4DklAD.jpg&ehk=m2%2bSgH0Gl9ylyBW7uInbZyBX5vHZOUl29cyVqWn1liA%3d&risl=&pid=ImgRaw");
 background-position:center;

@@ -20,4 +20,7 @@ export default function Content(props) {
 }
 const Contents = styled.div`
     //FILL ME IN
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     `;

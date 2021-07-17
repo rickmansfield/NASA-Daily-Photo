@@ -16,23 +16,24 @@ export default function Footer(){
 
     return (
         <div>
+            <Footers>
             <Shares> 
             <P>Share today's photo: </P>
             </Shares>
             <Icons>
         <Box> EMAIL 
             <EmailShareButton url={window.location.href}>
-            <EmailIcon size={25} round={false} iconFillColor="white" bgStyle={{ fill: 'none' }}  /> 
+            <EmailIcon size={50} round={false} iconFillColor="white" bgStyle={{ fill: 'none' }}  /> 
             </EmailShareButton>
         </Box>
         <Box> SHARE
             <FacebookShareButton url={window.location.href}>
-            <FacebookIcon size={25} round={false} iconFillColor="white" bgStyle={{ fill: 'none' }}   />
+            <FacebookIcon size={50} round={false} iconFillColor="white" bgStyle={{ fill: 'none' }}   />
             </FacebookShareButton>  
         </Box>
         <Box> TWEET
             <TwitterShareButton url={window.location.href}>
-            <TwitterIcon size={25} round={false} iconFillColor="white" bgStyle={{ fill: 'none' }}    />
+            <TwitterIcon size={50} round={false} iconFillColor="white" bgStyle={{ fill: 'none' }}    />
             </TwitterShareButton>
         </Box>
 
@@ -40,6 +41,7 @@ export default function Footer(){
              <div>
                 <a id="resume-link" href="https://resume.creddle.io/resume/4uxc0m7zngm">Like what you see? My Resume</a>
             </div>
+            </Footers>
         </div>
     )
 }
@@ -55,9 +57,14 @@ width: 100%;
 justify-content: space-evenly;
 align-items: center;
 
+#resume-link{
+    color: white;
+}
+
 `;
 
 const Box = styled.section`
 //     background-color: white;
 //     padding-left: 5%;
 `;
+const Footers = styled.section``;
